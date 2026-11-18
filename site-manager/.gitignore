@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.env
+.npmrc
+data/
+backups/
+temp/
+cache/

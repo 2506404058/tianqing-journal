@@ -1,0 +1,15 @@
+{
+  "name": "tianqing-squad-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "心晴手账、开黑聊天室与网站管理中心的统一启动入口",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node launcher.cjs",
+    "status": "node launcher.cjs --status",
+    "test": "node scripts/test-all.cjs",
+    "check:privacy": "node scripts/privacy-check.cjs"
+  }
+}

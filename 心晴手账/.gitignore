@@ -1,0 +1,37 @@
+# Personal records, exports and old server data
+/data/
+/backups/
+/private/
+/exports/
+*records*.json
+心晴手账-*.json
+*.log
+*.tmp
+# Local secrets and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+*.bak
+/desktop-data/
+
+/.zerotier-*.json
+
+
+# Never commit hosted accounts, password hashes, or journals
+/shared-accounts/
+/accounts-data/
+
+# Machine-specific location and generated server data
+/server-location.json
+/.npmrc
+/logs/
+/temp/
+/cache/

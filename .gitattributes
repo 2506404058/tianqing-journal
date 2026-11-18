@@ -1,0 +1,2 @@
+# Keep Windows launchers compatible with cmd.exe after checkout.
+*.cmd text eol=crlf

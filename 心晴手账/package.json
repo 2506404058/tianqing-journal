@@ -1,0 +1,15 @@
+{
+  "name": "tianqing",
+  "version": "1.1.0",
+  "private": true,
+  "description": "心晴手账：情绪与日程记录，支持浏览器、本机自动保存及ZeroTier独立账号",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test.js privacy.test.js autosave.test.js journal.test.js flows.test.js analysis.test.js share.test.js accounts.test.js account-client.test.js runtime.test.js access-log.test.js",
+    "share": "node share-server.js",
+    "doctor": "node doctor.js"
+  }
+}

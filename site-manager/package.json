@@ -1,0 +1,6 @@
+{
+ "name":"local-site-manager","version":"1.0.0","private":true,
+ "description":"站点管家：仅本机使用的多网站与用户管理中心",
+ "engines":{"node":">=20"},
+ "scripts":{"start":"node launch.js","test":"node --check web/app.js && node --test manager.test.js"}
+}
